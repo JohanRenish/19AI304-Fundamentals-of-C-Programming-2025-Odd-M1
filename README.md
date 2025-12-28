@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1c1fc2ec-2296-4f5b-80a2-19e8dff1e19f" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28f35c47-4292-4124-8a85-7799b0d12e47" /># 19AI304-Fundamentals-of-C-Programming-2025-Odd-M1
+ 19AI304-Fundamentals-of-C-Programming-2025-Odd-M1
 # IAPR-1- Module 1 - FoC
 ## 1. Implementation of basic C programs using Literals,Consonants, Variables, Data types.
 ## 2. Implementation of different categories of operators.
@@ -26,6 +26,7 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+```
 #include <stdio.h>
 int main()
 {
@@ -39,6 +40,7 @@ int main()
     printf("STRING LITERAL : %s , SIZE OF STRING LITERAL IS : %ld bytes\n", character1, sizeof(character1) );
     return 0;
 }
+```
 # Output:
 <img width="1488" height="952" alt="Exp 1" src="https://github.com/user-attachments/assets/2daf0d87-eca0-4721-a6fe-4bda6159cf54" />
 
@@ -72,6 +74,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
 #include <stdio.h>
 #define PI 3.14159
 int main()
@@ -81,6 +84,7 @@ int main()
     printf("Value of constant variable DAYS = %d\n", DAYS);
     return 0;
 }
+```
 # Output:
 <img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/f24447ff-f61a-4c32-9d00-33812f81b3bf" />
 
@@ -107,6 +111,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
 #include <stdio.h>
 int main()
 {
@@ -129,7 +134,7 @@ int main()
     printf("CHARACTER :%c\n\n", charac);
     
 }
-
+```
 # Output:
 <img width="1920" height="1080" alt="Exp 3" src="https://github.com/user-attachments/assets/f7602f14-300a-4c04-a944-e114a9efd46f" />
 
@@ -171,6 +176,7 @@ int main()
 ### Step 8:   
   Stop
 # Program:
+```
 #include <stdio.h>
 int main()
 {
@@ -195,6 +201,7 @@ int main()
     printf("NOT b: %d\n", ~b);
     return 0;
 }
+```
 # Output:
 <img width="1920" height="1080" alt="Exp 4" src="https://github.com/user-attachments/assets/7d162119-59eb-4c20-bcd1-07dfd2620c9d" />
 
@@ -242,6 +249,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
 #include <stdio.h>
 int main() 
 {
@@ -254,6 +262,7 @@ int main()
       printf("Vowel") : printf("Consonant"): printf("Special character");
     return 0; 
 }
+```
 # Output:
 <img width="1920" height="1080" alt="Exp 5" src="https://github.com/user-attachments/assets/162dc3b9-3764-44ad-959c-a0ca2113c7ea" />
 
